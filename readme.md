@@ -65,9 +65,9 @@ These servers support the IIIF Image API. Some may also have support for the Pre
 - [go-iiif](https://github.com/thisisaaronland/go-iiif) - IIIF server written in go (fork of [greut/iiif](https://github.com/greut/iiif)).
 - [serverless-iiif](https://github.com/nulib/serverless-iiif) - IIIF Image API 2.1 server as an AWS Serverless Application.
 
-## Image Server Shims
+## Shim Image Servers 
 
-These shims allow you to use an image server that does not currently support IIIF. If you have not implemented an image server yet, this is probably not where you want to start.
+As defined by Wikipedia a shim is a small library that transparently intercepts an API, changing the parameters passed, handling the operation itself, or redirecting the operation elsewhere. These shims allow you to use an image server that does not currently support IIIF. If you have not implemented an image server yet, this is probably not where you want to start. 
 
 - [Djatoka Ruby gem](https://github.com/jronallo/djatoka) - Convert IIIF URLs into the URLs that Djatoka requires.
 - [Shimmy](https://github.com/mejackreed/shimmy) - Ruby gem designed to help you build shims for the IIIF Presentation API.
@@ -87,6 +87,8 @@ These shims allow you to use an image server that does not currently support III
 - [IIIF Curation Viewer](http://codh.rois.ac.jp/software/iiif-curation-viewer/) - A general IIIF viewer with added focus on curation and ordering of cropped IIIF images. [Demo](http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?curation=https://gist.githubusercontent.com/2SC1815J/18e1228c52a6650c64902142ed7496f8/raw/7a247b64b6e22357e83f573b7283e31f3111af68/curation_kibutsu.json&pos=4)
 - [CanvasPanel](http://canvas-panel.netlify.com/) - React library to build IIIF Presentation 3 level viewing experiences including support for annotations.
 - [OpenLayers](https://openlayers.org) - High-performance, feature-packed Javascript library especially built for maps. It supports the IIIF Image API 2.1.
+- [IIPMooViewer](https://iipimage.sourceforge.io/documentation/iipmooviewer/) - IIPMooViewer is an open source, Javascript and HTML5 image streaming and zooming client. IIPMooViewer is IIIF-compatible and works with IIPServer or other IIIF compatible servers. [Demo](https://iipimage.sourceforge.io/demo/)
+- [Micr.io Service](https://micr.io/iiif) - Micrio is a IIIF compatible image viewer and image server service, and also has compatibility for the IIIF Presentation API.  [Demo](https://micr.io/showcases)
 
 ## Image API Libraries
 - [iiif-apis](https://github.com/dbmdz/iiif-apis) - Java IIIF API libraries.
