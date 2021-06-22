@@ -305,6 +305,12 @@ Content Management Systems (CMS) modules that implement or leverage the IIIF API
 - [Mirador Viewer Omeka S Module](https://github.com/Daniel-KM/Omeka-S-module-Mirador) - Omeka S module that integrates the Mirador image viewer.
 - [UniversalViewer Omeka S Module](https://omeka.org/s/modules/UniversalViewer/) - Omeka S module that integrates UniversalViewer.
 
+## Framework Integration
+
+Web application framework modules that implement or leverage the IIIF APIs.
+
+- [djiiif](https://github.com/rogerhoward/djiiif) - djiiif is a Django package designed to make integrating the IIIF Image API easier by extending Django's ImageField. By defining one or more named "profiles", your ImageFields expose IIIF-compatible URLs for each profile..
+
 ## Newspapers
 
 These are resources that are specifically useful for working with newspapers. Many of them are outputs of the [IIIF Newspaper Community Group](http://iiif.io/community/groups/newspapers/).
